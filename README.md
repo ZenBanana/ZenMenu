@@ -46,7 +46,7 @@ Open Storyboard
 
 ##### 4) Link the ZenMenu button to source file
 
-![Link to source file](/Assets/ReadMe-Images/set-ZenMenu-As-UIOutlet.png)
+![Link to source file](/Assets/ReadMe-Images/Set-ZenMenu-As-UIOutlet.png)
 
 
 *In viewDidLoad()*
@@ -54,9 +54,9 @@ Open Storyboard
 
 ##### 5) Create ZenMenuItems. 
     
-There are three different types of ZenMenuItems you can initialize
+*There are three different types of ZenMenuItems you can initialize*
 	
-  * Using a Simple String
+* Using a Simple String
   
 	![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
 	
@@ -66,7 +66,7 @@ There are three different types of ZenMenuItems you can initialize
 	![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
 	
 	
-  * Using a Custom View from a .xib
+* Using a Custom View from a .xib
 
 	![Custom View Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Custom.png)
 	
