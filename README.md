@@ -26,20 +26,31 @@ A customizable menu that displays menu items in various circle patterns around t
 
 Open Storyboard 
 
-1) Add UIButton inheiriting from ZenMenu for the ViewController ZenMenu will be used in
+1) Add UIButton to Storyboard
 
-2) Set Attributes for UIButton via Storyboard IBInspectables
+	![Add UIButton](/Assets/ReadMe-Images/Add-UIButton-To-SB.png)
 
-	* Set Radius (default is 100)
-	* Set Animation Duration (default is 0.3)
-	* Set Open Menu Icon
-	* Set Closed Menu Icon
+
+2) Set UIButton custom class as ZenMenu
+
+	![Set as ZenMenu](/Assets/ReadMe-Images/Set-Button-As-ZenMenu.png)
+
+
+3) Set up ZenMenu attributes
+
+	![Set Attributes](/Assets/ReadMe-Images/Set-ZenMenu-Attributes-SB.png)
+
 
 *Open ViewController Source File*
 
-3) Set ZenMenu button as an @IBOutlet
+
+3) Link the ZenMenu button to source file
+
+	![Link to source file](/Assets/ReadMe-Images/set-ZenMenu-As-UIOutlet.png)
+
 
 *In viewDidLoad()*
+
 
 4) Create ZenMenuItems. 
     
@@ -47,34 +58,31 @@ Open Storyboard
 	
   * Using a Simple String
   
-  		// Size that will be used for the different menu items
-		let customSize = CGSize(width: 80, height: 80)
-		
-		// Initialize the first ZenMenuItem using a String.
-        	let item1Button = ZenMenuItem(title: "Full", withSize: customSize)	
+	![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
 	
   * Using a UIImage
   
-  		// Size that will be used for the different menu items
-		let customSize = CGSize(width: 80, height: 80)
-		
-		// Initialize the first ZenMenuItem using a UIImage
-        	let item1Button = ZenMenuItem(icon: UIImage(named: "Full")!, withSize: customSize)
+  	![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
 		
 	
   * Using a Custom View from a .xib
 
-		// Size that will be used for the different menu items
-		let customSize = CGSize(width: 80, height: 80)
+	![Custom View Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Custom.png)
+	
 
-		// Initialize the UIView that will be used as the view for the first ZenMenuItem
-		let item1 = CustomMenuButtonItem.instanceFromNib(title: "Full Circle", icon: UIImage(named: "Full")!, mainColor: UIColor.green)
-		
-		// Adjust custom view attributes
-		item1.titleLabel.textColor = UIColor.white
-		
-		// Initialize the first ZenMenuItem using the custom view 
-		let item1Button = ZenMenuItem(customItemView: item1, withSize: customSize)
+5) Assign ZenMenu's programmable attributes
+
+	![Programatical Attributes](/Assets/ReadMe-Images/Set-ZenMenu-Attributes.png)
+	
+	
+6) Finalize the ZenMenu by calling commonInit()
+
+	![Common Init](/Assets/ReadMe-Images/Common-Init.png)
+
+
+7) Add Delegate Resource to View Controller
+	
+	![Delegate](/Assets/ReadMe-Images/Delegate-Source.png)
 
 
 ### Set Up Programatically
