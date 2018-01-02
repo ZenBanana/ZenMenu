@@ -149,7 +149,9 @@ This is a file included with the pod that includes some functions for the UIView
 
 ### ZenMenu Protocol Functions
 
-There are a number of protocol functions you can utilize to customize your ZenMenu. For example, if you wanted to add an animation to the ZenMenu as it opens and closes, you could do so using the *willOpen(_ zenMenu: ZenMenu)* and *willClose(_ zenMenu: ZenMenu)* protocols, respectively. In the example above, you can see that each ZenMenuItem spins clockwise when being displayed, and spins counter-clockwise when being dismissed. In order for that to happen, I added this code to the ZenMenuDelegate source:
+There are a number of protocol functions you can utilize to customize your ZenMenu. For example, if you wanted to add an animation to the ZenMenu as it opens and closes, you could do so using the *willOpen(_ zenMenu: ZenMenu)* and *willClose(_ zenMenu: ZenMenu)* protocols, respectively. 
+
+In the example above, you can see that each ZenMenuItem spins clockwise when being displayed, and spins counter-clockwise when being dismissed. In order for that to happen, I utilized the *zenMenuSpinClockwise()* and *zenMenuSpinCounterClockwise()* functions in the *ZenMenuHelper.swift* file and applied them to the ZenMenuItem being displayed using the *willPresentZenMenuItem* and *willDismissZenMenuItem* protocol functions, respectively. Here is the code added to the ZenMenuDelegate source:
 
 ![ZenMenuItem Animation](/Assets/ReadMe-Images/ZenMenuItem-Animation.png)
 
