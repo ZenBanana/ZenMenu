@@ -62,21 +62,21 @@ In order to have a functioning ZenMenu, we need ZenMenuItems to display when the
 
 If you want to just display simple strings for the menu items, here is how you would initialize them:
   
-	![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
+![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
 	
 	
 * Using a UIImage
 
 If you have images for the menu items, here is how to initialize them as ZenMenuItems:
 
-	![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
+![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
 	
 	
 * Using a Custom View from a .xib
 
 If you have a custom view for your menu items, here is how to initialize them as ZenMenuItems:
 
-	![Custom View Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Custom.png)
+![Custom View Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Custom.png)
 	
 
 ##### 6) Assign ZenMenu's programmable attributes
