@@ -133,7 +133,7 @@ When a user clicks on a ZenMenuItem, usually something should happen. You can ha
 ![Delegate](/Assets/ReadMe-Images/Final-Delegate.png)
 
 
-##### The set up is now complete and your ZenMenu is fully functional
+##### The set up is now complete and your ZenMenu is fully functional.
 
 
 ## Additional Features
