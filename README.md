@@ -10,12 +10,9 @@ A customizable menu that displays menu items in various circle patterns around t
 
 ## Example
 
-<video width="320" height="240" controls>
-  <source src="/Assets/ReadMe-Videos/All.mp4" type="video/mp4">
-</video>
-
-![Full Demo](/Assets/ReadMe-Videos/All.mp4)
-
+![Full Example](/Assets/ReadMe-Videos/Full.gif)
+![Half Example](/Assets/ReadMe-Videos/Half.gif)
+![Quarter Example](/Assets/ReadMe-Videos/Quarter.gif)
 
 
 
