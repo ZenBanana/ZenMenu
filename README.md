@@ -26,61 +26,62 @@ A customizable menu that displays menu items in various circle patterns around t
 
 Open Storyboard 
 
-1) Add UIButton to Storyboard
+##### 1) Add UIButton to Storyboard
 
-	![Add UIButton](/Assets/ReadMe-Images/Add-UIButton-To-SB.png)
-
-
-2) Set UIButton custom class as ZenMenu
-
-	![Set as ZenMenu](/Assets/ReadMe-Images/Set-Button-As-ZenMenu.png)
+![Add UIButton](/Assets/ReadMe-Images/Add-UIButton-To-SB.png)
 
 
-3) Set up ZenMenu attributes
+##### 2) Set UIButton custom class as ZenMenu
 
-	![Set Attributes](/Assets/ReadMe-Images/Set-ZenMenu-Attributes-SB.png)
+![Set as ZenMenu](/Assets/ReadMe-Images/Set-Button-As-ZenMenu.png)
+
+
+##### 3) Set up ZenMenu attributes
+
+![Set Attributes](/Assets/ReadMe-Images/Set-ZenMenu-Attributes-SB.png)
 
 
 *Open ViewController Source File*
 
 
-3) Link the ZenMenu button to source file
+##### 4) Link the ZenMenu button to source file
 
-	![Link to source file](/Assets/ReadMe-Images/set-ZenMenu-As-UIOutlet.png)
+![Link to source file](/Assets/ReadMe-Images/set-ZenMenu-As-UIOutlet.png)
 
 
 *In viewDidLoad()*
 
 
-4) Create ZenMenuItems. 
+##### 5) Create ZenMenuItems. 
     
-  There are three different types of ZenMenuItems you can initialize
+There are three different types of ZenMenuItems you can initialize
 	
   * Using a Simple String
   
 	![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
 	
-  * Using a UIImage
-  
-  	![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
-		
+	
+* Using a UIImage
+
+	![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
+	
 	
   * Using a Custom View from a .xib
 
 	![Custom View Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Custom.png)
 	
 
-5) Assign ZenMenu's programmable attributes
+##### 6) Assign ZenMenu's programmable attributes
 
 	![Programatical Attributes](/Assets/ReadMe-Images/Set-ZenMenu-Attributes.png)
 	
 	
-6) Finalize the ZenMenu by calling commonInit()
+##### 7) Finalize the ZenMenu by calling commonInit()
 
 	![Common Init](/Assets/ReadMe-Images/Common-Init.png)
 
 
-7) Add Delegate Resource to View Controller
+##### 8) Add Delegate Resource to View Controller
 	
 	![Delegate](/Assets/ReadMe-Images/Delegate-Source.png)
 
