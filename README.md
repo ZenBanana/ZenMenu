@@ -58,25 +58,25 @@ You can do these all programatically in the View Controller viewDidLoad(), or yo
 
 In order to have a functioning ZenMenu, we need ZenMenuItems to display when the menu is open. There are three different types of ZenMenuItems, and here is how you initialze them:
 	
-* Using a Simple String
+   *) Using a Simple String
 
-If you want to just display simple strings for the menu items, here is how you would initialize them:
+   If you want to just display simple strings for the menu items, here is how you would initialize them:
   
-![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
+   ![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
 	
 	
-* Using a UIImage
+   * Using a UIImage
 
-If you have images for the menu items, here is how to initialize them as ZenMenuItems:
+   If you have images for the menu items, here is how to initialize them as ZenMenuItems:
 
-![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
+   ![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
 	
 	
-* Using a Custom View from a .xib
+   * Using a Custom View from a .xib
 
-If you have a custom view for your menu items, here is how to initialize them as ZenMenuItems:
+   If you have a custom view for your menu items, here is how to initialize them as ZenMenuItems:
 
-![Custom View Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Custom.png)
+   ![Custom View Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Custom.png)
 	
 
 ##### 6) Assign ZenMenu's programmable attributes
