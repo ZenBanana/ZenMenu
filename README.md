@@ -8,6 +8,10 @@ A customizable menu that displays menu items in various circle patterns around t
 * XCode 9.0+
 * Swift 4.0+
 
+## Example
+
+
+
 ## Installation
 
 1) *via* Github
@@ -137,6 +141,20 @@ When a user clicks on a ZenMenuItem, usually something should happen. You can ha
 
 
 ## Additional Features
+
+
+### ZenMenuHelper.swift
+
+This is a file included with the pod that includes some functions for the UIView class. This class is meant to provide you, the programmer, with some easy to use modification to your UIViews. For example, there is one function in there that will spin the view around in a clockwise circle, and one that will spin it in a counterclockwise. These are handy to add some effects to your ZenMenu button and the ZenMenuItems when the menu is opening and closing. Feel free to utilize in your ZenMenu implementation. 
+
+### ZenMenu Protocol Functions
+
+There are a number of protocol functions you can utilize to customize your ZenMenu. For example, if you wanted to add an animation to the ZenMenu as it opens and closes, you could do so using the *willOpen(_ zenMenu: ZenMenu)* and *willClose(_ zenMenu: ZenMenu)* protocols, respectively. In the example above, you can see that each ZenMenuItem spins clockwise when being displayed, and spins counter-clockwise when being dismissed. In order for that to happen, I added this code to the ZenMenuDelegate source:
+
+![ZenMenuItem Animation](/Assets/ReadMe-Images/ZenMenuItem-Animation.png)
+
+
+All protocol functions are optional. Make sure to view the ZenMenuDelegate protocol fucntions in ZenMenu.swift to explore the endless ways you can customize your ZenMenu.
 
 
 ## Authors
