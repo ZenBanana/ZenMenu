@@ -183,7 +183,7 @@ open class ZenMenu: UIButton {
             self.delegate?.zenMenu?(self, didPrepareZenMenuItem: items![i], index: i)
             
             // Add Item to parent view, below the ZenMenu button
-            self.parentView?.insertSubview(items![i], belowSubview: self)
+            self.parentView.insertSubview(items![i], belowSubview: self)
         }
         
         itemsPrepared = true
