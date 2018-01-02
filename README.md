@@ -58,21 +58,21 @@ You can do these all programatically in the View Controller viewDidLoad(), or yo
 
 In order to have a functioning ZenMenu, we need ZenMenuItems to display when the menu is open. There are three different types of ZenMenuItems, and here is how you initialze them:
 	
-   *) Using a Simple String
+A) Using a Simple String
 
    If you want to just display simple strings for the menu items, here is how you would initialize them:
   
    ![Simple String Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-String.png)	
 	
 	
-   * Using a UIImage
+B) Using a UIImage
 
    If you have images for the menu items, here is how to initialize them as ZenMenuItems:
 
    ![UImage Item](/Assets/ReadMe-Images/Init-ZenMenuItem-As-Image.png)
 	
 	
-   * Using a Custom View from a .xib
+C) Using a Custom View from a .xib
 
    If you have a custom view for your menu items, here is how to initialize them as ZenMenuItems:
 
@@ -82,10 +82,11 @@ In order to have a functioning ZenMenu, we need ZenMenuItems to display when the
 ##### 6) Assign ZenMenu's programmable attributes
 
 Now we need to finish setting up some of the ZenMenu attributes. We need to set these attributes:
-    * parentView: This needs set for displaying a background view over the view controllers main view for when the menu is open. Always set this as the view controllers view
-    * items: This is an array of the ZenMenuItems you want in the menu
-    * direction: When the ZenMenu calculates the positioning of the ZenMenuItems, it calculates them in a clockwise rotation around the ZenMenu. The direction is where the first ZenMenu item will be calculated from. There are 4 options (north, south, east, and west)
-    * type: The type is the way you want the ZenMenuItems to be displayed around the ZenMenu. There are 3 options (fullCircle, halfCircle, quarterCircle)
+    
+* parentView: This needs set for displaying a background view over the view controllers main view for when the menu is open. Always set this as the view controllers view
+* items: This is an array of the ZenMenuItems you want in the menu
+* direction: When the ZenMenu calculates the positioning of the ZenMenuItems, it calculates them in a clockwise rotation around the ZenMenu. The direction is where the first ZenMenu item will be calculated from. There are 4 options (north, south, east, and west)
+* type: The type is the way you want the ZenMenuItems to be displayed around the ZenMenu. There are 3 options (fullCircle, halfCircle, quarterCircle)
 
 ![Programatical Attributes](/Assets/ReadMe-Images/Set-ZenMenu-Attributes.png)
 	
@@ -122,7 +123,17 @@ When a user clicks on a ZenMenuItem, usually something should happen. You can ha
 ![DidSelectZenMenuItem](/Assets/ReadMe-Images/Did-Select-ZenMenuItem.png)
 
 
-### Set Up Programatically
+##### In the end, your ViewDidLoad should match something similar to this:
+
+![Delegate](/Assets/ReadMe-Images/Final-ViewDidLoad.png)
+
+
+##### And your ZenMenuDelegate should match something similar to this:
+
+![Delegate](/Assets/ReadMe-Images/Final-Delegate.png)
+
+
+##### The set up is now complete and your ZenMenu is fully functional
 
 
 ## Additional Features
