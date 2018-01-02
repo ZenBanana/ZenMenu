@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author             = { "Tanner Juby" => "support@zenbanana.com" }
   s.platform     = :ios, "10.0"
-  s.source       = { :git => "https://github.com/zenbanana/zenmenu.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/ZenBanana/ZenMenu.git", :tag => "#{s.version}" }
   s.source_files  = "ZenMenu", "ZenMenu/**/*.{h,m,swift}"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
 
