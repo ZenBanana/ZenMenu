@@ -29,7 +29,7 @@ open class ZenMenuItem: UIView {
      parameter title:           The title of the item
      parameter backgroundColor: The color of the background of the item
      */
-    public init(title: String, withSize: CGSize) {
+    public init(title: String, withSize: CGSize, backgroundColor: UIColor, titleColor: UIColor) {
         super.init(frame: CGRect(x: 0, y: 0, width: withSize.width, height: withSize.height))
         
         let titleLabel = UILabel()
@@ -37,15 +37,15 @@ open class ZenMenuItem: UIView {
         
         titleLabel.text = title
         titleLabel.textAlignment = .center
-        titleLabel.backgroundColor = UIColor.white
-        titleLabel.textColor = UIColor.black
+        titleLabel.backgroundColor = backgroundColor
+        titleLabel.textColor = titleColor
         titleLabel.adjustsFontSizeToFitWidth = true
         
         self.addSubview(titleLabel)
     }
     
     /**
-     Initializes and Returns a ZenMenuItem object that only has an image
+     Initializes and Returns a ZenMenuItem object that only has asn image
      
      parameter frame:           The frame of the item
      parameter icon:            The image for the item

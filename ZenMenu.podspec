@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "ZenMenu"
-  s.version      = "1.0.1"
+  s.version      = "1.1.0"
   s.summary      = "A customizable menu that displays menu items in various circle patterns around the menu button."
 
   s.description  = "A customizable menu that displays menu items in various circle patterns the menu button. Choose to display menu items in a full, half, or quarter circle shape around the menu button. Create menu items using a simple string, an image, or a custom UIView you built."
