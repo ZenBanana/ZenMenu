@@ -10,6 +10,8 @@ A customizable menu that displays menu items in various circle patterns around t
 
 ## Examples
 
+To view and download our example project, follow this link: [ZenMenu Example](https://github.com/ZenBanana/ZenMenu-Example)
+
 This gif demonstrates a ZenMenu with custom ZenMenuItems displayed in a Full circle
 
 ![Full Example](/Assets/ReadMe-Videos/Full.gif)
